@@ -1,0 +1,33 @@
+ul.tabheading{
+    display: flex;
+    list-style: none;
+    background-color: black;
+   
+}
+ul.tabheading li{
+    padding: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    width: 25%;
+    color: white;
+}
+ul.tabheading li.active{
+    background-color: gold;
+}
+.tab-content{
+    border: 1px solid black;
+}
+.mytab{
+    width: 600px;
+    margin: 80px auto;
+}
+.tab-pannel{
+    display: none;
+    border:1px solid black;
+
+}
+.tab-pannel .active{
+    display: block;
+    
+}
